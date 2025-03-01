@@ -1,13 +1,11 @@
 ---
+import Hamburger from './hamburger.astro';
+import Navigation from './Navigation.astro';
 ---
 <header>
     <h1>はりねずみの杉山🦔</h1>
     <nav>
-        <ul>
-            <li><a href="/">ホーム</a></li>
-            <li><a href="/about/">代表紹介</a></li>
-            <li><a href="/works/">作品紹介</a></li>
-            <li><a href="/contact/">お問い合わせ</a></li>
-        </ul>
+        <Hamburger />
+        <Navigation />
     </nav>
 </header>
